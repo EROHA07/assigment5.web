@@ -38,14 +38,3 @@ I created the HTML structure, styled it with CSS, and wrote JavaScript functions
 ## Technologies
 HTML5, CSS3, JavaScript (DOM manipulation and events).
 
-## How to run
-Open `index.html` in any modern browser. Open Developer Tools (F12) → Console to see the calculations.
-
-## GitHub Pages
-Publish from the `main` branch, root folder, in **Settings → Pages**.
-
-**Repository link:** Add your public GitHub repository URL here.  
-**Live site:** Add your GitHub Pages URL here.
-
-## Screenshots required before submission
-Create a `screenshots` folder and save screenshots named `task1.png`, `task2.png`, `task3.png`, `task4.png`, and `task5.png`. Uncomment each matching Markdown image line above after adding the real file. For Task 2, include the console if possible. For Task 4, show the updated profile; for Task 5, show the list after clicking Add Item.
