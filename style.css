@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #eee9df;
+    color: #292d28;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+.header p {
+    color: #6d716a;
+}
+
+.tag {
+    color: #55735b;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.card {
+    background-color: #faf8f2;
+    border: 1px solid #d8d2c5;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #344c3b;
+    margin-top: 0;
+}
+
+.hint {
+    color: #77786f;
+}
+
+.stats, .form-grid, .list-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.stat {
+    flex: 1;
+    min-width: 160px;
+    padding: 18px;
+    background-color: #e5e9dd;
+    border-radius: 8px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 14px;
+    color: #646d60;
+    margin-bottom: 8px;
+}
+
+.stat strong {
+    font-size: 24px;
+    color: #344c3b;
+    overflow-wrap: anywhere;
+}
+
+.developer-status {
+    margin-top: 18px;
+}
+
+.field {
+    flex: 1;
+    min-width: 200px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 12px;
+    font-family: inherit;
+    font-size: 15px;
+    border: 1px solid #c6c5b9;
+    border-radius: 6px;
+    background-color: #fffefa;
+    max-width: 100%;
+}
+
+.field input {
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #55735b;
+}
+
+.button {
+    background-color: #405b46;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2e4433;
+}
+
+.button-outline {
+    background-color: #847d6d;
+}
+
+.button-outline:hover {
+    background-color: #686253;
+}
+
+form .button {
+    margin-top: 18px;
+}
+
+.list-controls input {
+    flex: 1;
+    min-width: 180px;
+}
+
+.hobby-list {
+    margin-top: 18px;
+    padding-left: 25px;
+}
+
+.hobby-list li {
+    padding: 7px;
+}
+
+.message {
+    color: #405b46;
+    font-weight: bold;
+}
+
+.message.error {
+    color: #a33c32;
+}
+
+footer {
+    text-align: center;
+    color: #77786f;
+    padding: 20px;
+}

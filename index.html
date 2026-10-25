@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My JavaScript Profile | Assignment 5</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <p class="tag">WEB TECHNOLOGIES · ASSIGNMENT 5</p>
+      <h1>My JavaScript Profile</h1>
+      <p>Objects, arithmetic, forms, events, and DOM manipulation in one project.</p>
+    </header>
+
+    <section class="card" aria-labelledby="profile-title">
+      <h2 id="profile-title">Task 1 & 2 — Personal Info and Calculations</h2>
+      <p class="hint">These details come from the JavaScript <code>userProfile</code> object.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-label">Name</span><strong id="displayName">—</strong></div>
+        <div class="stat"><span class="stat-label">Birth year</span><strong id="displayYear">—</strong></div>
+        <div class="stat"><span class="stat-label">Approx. age</span><strong id="displayAge">—</strong></div>
+        <div class="stat"><span class="stat-label">Hobbies count</span><strong id="displayCount">—</strong></div>
+      </div>
+      <p class="developer-status">Is developer: <strong id="displayDeveloper">—</strong></p>
+    </section>
+
+    <section class="card" aria-labelledby="form-title">
+      <h2 id="form-title">Task 3 & 4 — Update Profile Form</h2>
+      <p class="hint">Submit the form to change the JavaScript object and the profile above.</p>
+      <form id="profileForm">
+        <div class="form-grid">
+          <div class="field">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" minlength="2" maxlength="40" placeholder="Enter your name" required>
+          </div>
+          <div class="field">
+            <label for="birthYear">Birth Year</label>
+            <input id="birthYear" name="birthYear" type="number" min="1900" max="2100" placeholder="e.g. 2005" required>
+          </div>
+        </div>
+        <button type="submit" class="button">Create / Update Profile</button>
+        <p id="formMessage" class="message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="card" aria-labelledby="hobbies-title">
+      <h2 id="hobbies-title">Task 5 — DOM List Manipulation</h2>
+      <p class="hint">Add a hobby or remove the last one. The count updates automatically.</p>
+      <div class="list-controls">
+        <input id="newHobby" type="text" maxlength="40" placeholder="New hobby, e.g. Chess" aria-label="New hobby">
+        <button id="addBtn" type="button" class="button">Add Item</button>
+        <button id="removeBtn" type="button" class="button button-outline">Remove Item</button>
+      </div>
+      <ul id="hobbyList" class="hobby-list"></ul>
+      <p id="listMessage" class="message" role="status" aria-live="polite"></p>
+    </section>
+    <footer>Created for Web Technologies · Assignment 5</footer>
+  </main>
+</body>
+</html>
